@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@600;700&family=Poppins:ital,wght@0,300;0,400;1,300;1,400;1,900&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>MAGIC EIGHT BALL</title>
+</head>
+<body>
+    <section class="enterName">
+        <h1>I AM MAGIC EIGHT BALL</h1>
+        <h2>I answer to all...</h2>
+        <form>
+            <span>Now tell me, what is your name?</span>
+            <input id="username" type="text">
+            <button id="usernameSubmit" type="button">Submit</button>
+        </form>
+    </section>
+
+    <section id="eightBallSection" class="hide">
+        <h2 id="eightBallWelcome"></h2>
+        <form>
+            <span id="whatQuestion">Now tell me, what is your question?</span>
+            <input id="userQuestion" type="text">
+            <button id="answerQuestion" type="button">Answer</button>
+        </form>
+        <h2 id="eightBallAnswer"></h2>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

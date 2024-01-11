@@ -1,0 +1,71 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* To Hide Bottom Section in JS */
+  .hide {
+    display: none; 
+}
+
+/* Background Image */
+body {
+    background: white url(https://i.ytimg.com/vi/WSaS17CSS4c/maxresdefault.jpg);
+    opacity: 0.8;
+    margin: 50px;
+}
+
+/*Enter Name Section*/
+.enterName, #eightBallSection {
+    background: white;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+.enterName h1 {
+    font:  65px 'Noto Serif Vithkuqi', serif;
+    text-shadow:  #CCCCFF 2px 5px;
+}
+
+.enterName h2, #eightBallSection h2 {
+    font: 40px 'Poppins', sans-serif;
+}
+
+span {
+    font: 30px 'Poppins', sans-serif;
+}
+
+input {
+    display: block;
+    background: #CCCCFF;
+    margin: auto;
+    width: 50%;
+    padding: 20px 15px;
+    font: normal 900 30px 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 50%;
+    color: #EFEFEF;
+    background: #717171;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font: italic 900 30px 'Poppins', sans-serif;
+}
+
+/*Some additional changes for Eight Ball section*/
+#eightBallSection {
+    padding-bottom: 105px;
+}
+
+/* Button Hovers */
+.enterName button:hover, #eightBallSection button:hover {
+    color:  #EFEFEF; 
+    background: #292929;
+}
